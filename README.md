@@ -28,4 +28,3 @@ You can use any of the above cases, and you can pass in a Json object, a Json st
 ## Credits
 
 I used `Illuminate\Support\Str` as the basis of the StringConverters class`, many thanks Taylor Otwell and all contributors.
-
