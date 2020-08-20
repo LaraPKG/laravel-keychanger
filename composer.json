@@ -1,0 +1,35 @@
+{
+  "name": "larapkg/laravel-keychanger",
+  "description": "PhpKeyChanger allows you to pass a json string, object or an array and it will recursively re-key the array using the case you give it.",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "ronappleton/php-key-changer": "^1.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ron Appleton",
+      "email": "ron.appleton@gmail.com"
+    },
+    {
+      "name": "Paul Dawson",
+      "email": "me@pauldawson.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaraPkg\\KeyChanger\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "aliases": {
+        "KeyChanger": "KeyChanger"
+      }
+    }
+  },
+  "require-dev": {
+    "illuminate/support": "^7.25"
+  }
+}
