@@ -15,15 +15,13 @@ KeyChanger allows you to pass a json string, object or an array and it will recu
 
 *Note:* Php key changer requires php ^7.4
 
-`composer require ronappleton/php-key-changer`
+`composer require larapkg/laravel-keychanger`
 
 ## Usage
 
-`use RonAppleton\PhpKeyChanger\PhpKeyChanger;`
+`$reKeyed = KeyChanger::reKey($array, 'snake');`
 
-`$reKeyed = PhpKeyChanger::reKey($array, 'snake');`
-
-You can use any of the above cases, and you can pass in a Json object, a Json string or an Array, it will be return the same type that you pass in.
+You can use any of the above cases, and you can pass in an object, a Json string or an Array, it will be return the same type that you pass in.
 
 ## Credits
 
